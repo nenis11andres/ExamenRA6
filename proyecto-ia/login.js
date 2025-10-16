@@ -43,7 +43,7 @@
             localStorage.setItem('token', token);
 
             // Redirigir a la tienda
-            window.location.href = 'tiendaonline/tiendaonline.html';
+            window.location.href = 'tiendaonline/pagina_ia.html';
           } else {
             // Si las credenciales no coinciden, aumentar los intentos fallidos
             intentosFallidos++;
